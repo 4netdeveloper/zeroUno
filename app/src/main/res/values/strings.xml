@@ -8,4 +8,42 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_proyector">proyector</string>
+
+    <string name="canal_1">1</string>
+    <string name="canal_2">2</string>
+    <string name="canal_3">3</string>
+    <string name="canal_4">4</string>
+    <string name="canal_5">5</string>
+    <string name="canal_6">6</string>
+    <string name="canal_7">7</string>
+    <string name="canal_8">8</string>
+    <string name="canal_9">9</string>
+    <string name="canal_0">0</string>
+
+    <string name="volumen">Volúmen</string>
+    <string name="canal">Canales</string>
+
+    <string name="encendido">On/Off</string>
+    <string name="input">Input</string>
+
+    <string name="mute">Mute</string>
+    <string name="canal_ant">Anterior</string>
+    <string name="ok">Ok</string>
+
+    <string name="flecha_up">Arriba</string>
+    <string name="flecha_dw">Abajo</string>
+    <string name="flecha_lf">Izquierda</string>
+    <string name="flecha_rg">Derecha</string>
+    <string name="proyector">proyector</string>
+
+    <string name="luz_1">Luz 1</string>
+    <string name="luz_2">Luz 2</string>
+    <string name="luz_3">Luz 3</string>
+    <string name="luz_4">Luz 4</string>
+    <string name="string_televisor">Televisor</string>
+    <string name="string_luces">Luces</string>
+    <string name="string_proyector">Proyector</string>
+    <string name="string_salir">Salir</string>
+
+
 </resources>

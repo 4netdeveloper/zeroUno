@@ -11,6 +11,10 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/*
+http:host:8181/index.php/(apt)/(acc)?id=&par=()
+ */
+
 public class linkeador {
 
     private static String mRPiAddress = "no";
@@ -28,7 +32,7 @@ public class linkeador {
 
         if (!mRPiAddress.equals("no")){
 
-            String mRPiPort = ":8080/";
+            String mRPiPort = ":8181/";
             Log.d("linkeador", "ejecuto: url: "+ mRPiAddress + mRPiPort + url);
 
             HttpURLConnection urlConnection = null;

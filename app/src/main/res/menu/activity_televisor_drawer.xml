@@ -7,19 +7,20 @@
         <item
             android:id="@+id/nav_televisor"
             android:icon="@drawable/television"
-            android:title="Televisor" />
+            android:title="@string/string_televisor"
+            android:visible="false"/>
         <item
             android:id="@+id/nav_luces"
             android:icon="@drawable/luces"
-            android:title="Luces" />
+            android:title="@string/string_luces" />
         <item
             android:id="@+id/nav_proyector"
             android:icon="@drawable/proyector"
-            android:title="Proyector" />
+            android:title="@string/string_proyector" />
         <item
             android:id="@+id/nav_salir"
             android:icon="@drawable/power"
-            android:title="Salir" />
+            android:title="@string/string_salir" />
     </group>
 
     <item android:title="Communicate">

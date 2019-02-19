@@ -2,9 +2,6 @@ package com.example.asokah.zerouno;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,8 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.ImageView;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -23,10 +20,10 @@ import java.io.IOException;
 public class luces extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public Button btn_luz1;
-    public Button btn_luz2;
-    public Button btn_luz3;
-    public Button btn_luz4;
+    public ImageButton btn_luz1;
+    public ImageButton btn_luz2;
+    public ImageButton btn_luz3;
+    public ImageButton btn_luz4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,14 +32,6 @@ public class luces extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -53,7 +42,7 @@ public class luces extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        btn_luz1 = (Button) findViewById(R.id.luz1);
+        btn_luz1 = findViewById(R.id.luz1);
         btn_luz1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,7 +58,7 @@ public class luces extends AppCompatActivity
             }
         });
 
-        btn_luz2 = (Button) findViewById(R.id.luz2);
+        btn_luz2 = findViewById(R.id.luz2);
         btn_luz2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,7 +74,7 @@ public class luces extends AppCompatActivity
             }
         });
 
-        btn_luz3 = (Button) findViewById(R.id.luz3);
+        btn_luz3 = findViewById(R.id.luz3);
         btn_luz3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -101,7 +90,7 @@ public class luces extends AppCompatActivity
             }
         });
 
-        btn_luz4 = (Button) findViewById(R.id.luz4);
+        btn_luz4 = findViewById(R.id.luz4);
         btn_luz4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
